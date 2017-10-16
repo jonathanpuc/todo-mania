@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  margin-top:2.5rem;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ffc600;
+}
+
+.title span {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.1s;
+  cursor:url('http://csscursor.info/source/santahand.png'), default;
+}
+.title span:hover {
+  transform:translateY(-20px) scale(2) rotate(10deg);
+  z-index: 1;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+.title {
+    font-size: 350%;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+    font-family: sans-serif;
+    padding:15px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+
+}
+form {
+  width:30%;
+  margin: 0 auto;
+}
+
+.filter-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: inherit;
+  border: 1px solid white;
+  padding: 11px 45px 11px 45px;
+  margin-top: 12px;
+  color:white;
+}
+
+
+/* NEED TO EDIT FOR MEDIA DEVICE */
+.todo-list {
+  width:100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width : 1024px){
+  .todo-list {
+    width:60%;
+  }
+}
+
+
+
